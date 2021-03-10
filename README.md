@@ -1,1 +1,1 @@
-# curriculo-site
+bundle exec jekyll serve
