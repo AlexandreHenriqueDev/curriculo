@@ -18,7 +18,7 @@ $color-light-gray: #f9f9f9;
 $color-medium-gray: #d7d9d9;
 $color-dark-gray: #777;
 $color-gray: #999;
-$color-background-red: #fffbfb;
+$color-background-red: #fafafa;
 $color-light-red: #f7c1bf;
 $color-medium-red: #f08782;
 $color-red: #941812;
@@ -85,7 +85,7 @@ a {
   padding: 0 15px;
   background: $color-white;
   border-radius: 0 0 5px 5px;
-  border: 1px solid $color-medium-gray;
+//   border: 1px solid $color-medium-gray;
   border-top: 0;
 
   section {
@@ -128,8 +128,8 @@ a {
   margin: 0 auto -1px auto;
   padding: 25px 30px 25px;
   background: $color-red;
-  border-radius: 5px 5px 0 0;
-  border: 1px solid $color-red;
+  border-radius: 15px 15px 0 0;
+//   border: 1px solid $color-red;
   text-align: center;
   color: $color-white;
 
@@ -152,7 +152,7 @@ a {
   margin: 0 -16px 0;
   padding: 25px 15px 5px;
   background: $color-light-red;
-  border: 1px solid $color-medium-red;
+//   border: 1px solid $color-medium-red;
   border-top: 0;
 
   @media screen and (min-width: $breakpoint-md) {
