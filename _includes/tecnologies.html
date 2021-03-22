@@ -1,0 +1,29 @@
+{% assign ordered_experience = site.experience | sort: "order" %}
+<div class="tecnologies">
+	{% for experience in ordered_experience %}
+		<div class="experience__tecnologies">
+		{% for tecnology in experience.tecnologies %}
+			<div class="fundo">
+				{% if tecnology.grade == 7 %}
+					<span class="e70">{{ tecnology.name }}</span>
+				{% endif %}
+				{% if tecnology.grade == 6.5 %}
+					<span class="e65">{{ tecnology.name }}</span>
+				{% endif %}
+				{% if tecnology.grade == 9.5 %}
+					<span class="e95">{{ tecnology.name }}</span>
+				{% endif %}
+				{% if tecnology.grade == 8 %}
+					<span class="e80">{{ tecnology.name }}</span>
+				{% endif %}
+				{% if tecnology.grade == 8.5 %}
+					<span class="e85">{{ tecnology.name }}</span>
+				{% endif %}
+				{% if tecnology.grade == 7.5 %}
+					<span class="e75">{{ tecnology.name }}</span>
+				{% endif %}
+			</div>
+		{% endfor %}
+		</div>
+	{% endfor %}
+</div>

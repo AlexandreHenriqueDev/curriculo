@@ -13,10 +13,5 @@
     <div class="experience__content">
       <p>{{ experience.content | markdownify }}</p>
     </div>
-    <div class="experience__tecnologies">
-      {% for tecnology in experience.tecnologies %}
-        <span>{{ tecnology }}</span>
-      {% endfor %}
-    </div>
   {% endfor %}
 </div>
