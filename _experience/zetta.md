@@ -25,8 +25,7 @@ tecnologies:
 - Desenvolvimento de API's REST
 - Desenvolvimento de soluções para SIG's utilizando a ferramenta GeoServer
 - Modelagem de soluções via banco de dados
-- Boa convivencia e colaboração com colegas de equipe
+- Boa convivência e colaboração com colegas de equipe
 - Atuação dentro do framework Scrum
-- Desenvolvimento de soluções em API's REST utilizando tecnologias de banco de dados em memória
 - Sistema operacional Ubuntu
 - Modelagem e desenvolvimento de soluções no frontend
